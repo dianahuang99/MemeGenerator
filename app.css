@@ -13,7 +13,11 @@
   max-width: 500px;
   position: absolute;
   font-size: xx-large;
+<<<<<<< HEAD
   top: 5%;
+=======
+  top: 7%;
+>>>>>>> c845c3fc486ef024e18b6a9500abaf96c32becad
   left: 50%;
   text-align: center;
   color: white;
