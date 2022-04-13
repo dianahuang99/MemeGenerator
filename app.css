@@ -1,0 +1,64 @@
+.container {
+  max-width: 500px;
+  position: relative;
+  cursor: pointer;
+  word-wrap: break-word;
+}
+.memeImage {
+  max-width: 500px;
+  min-width: 300px;
+}
+
+.topText {
+  max-width: 500px;
+  position: absolute;
+  font-size: xx-large;
+  top: 10%;
+  left: 50%;
+  text-align: center;
+  color: white;
+  transform: translate(-50%, -50%);
+  font-weight: bold;
+  -webkit-text-stroke: 1px black;
+  text-stroke: 1px black;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  text-transform: uppercase;
+}
+
+.bottomText {
+  max-width: 500px;
+  position: absolute;
+  font-size: xx-large;
+  color: white;
+  font-weight: bold;
+  top: 90%;
+  left: 50%;
+  text-align: center;
+  transform: translate(-50%, -50%);
+  -webkit-text-stroke: 1px black;
+  text-stroke: 1px black;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  text-transform: uppercase;
+}
+
+.input {
+  width: 500px;
+}
+
+.center {
+  text-align: center;
+}
+
+.delete {
+  content: url("https://www.i2symbol.com/images/text-symbols/x-symbol.png");
+}
+
+/* https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSoKdW3NEfMq-dNbbby6A-OfzfgQXHMZioOiw&usqp=CAU */
+
+#addBtn {
+  cursor: pointer;
+}
+
+#reset {
+  cursor: pointer;
+}
