@@ -16,17 +16,17 @@ addBtn.addEventListener("click", function (e) {
   const bottomText = document.createElement("div");
   bottomText.innerText = bottomTextInput.value;
   bottomText.classList.add("bottomText");
-  const deleteImg = document.createElement("img");
-  deleteImg.setAttribute(
-    "src",
-    "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSoKdW3NEfMq-dNbbby6A-OfzfgQXHMZioOiw&usqp=CAU"
-  );
+  // const deleteImg = document.createElement("img");
+  // deleteImg.setAttribute(
+  //   "src",
+  //   "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSoKdW3NEfMq-dNbbby6A-OfzfgQXHMZioOiw&usqp=CAU"
+  // );
   // deleteImg.setAttribute("width", `${memePhoto.width}px`);
   // deleteImg.setAttribute("height", `${memePhoto.width}px`);
-  deleteImg.setAttribute("id", "deleteImg");
+  // deleteImg.setAttribute("id", "deleteImg");
   const container = document.createElement("div");
   container.classList.add("container");
-  container.append(deleteImg);
+  // container.append(deleteImg);
   container.append(bottomText);
   container.append(topText);
   container.append(memePhoto);
