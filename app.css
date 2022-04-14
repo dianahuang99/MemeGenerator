@@ -70,7 +70,7 @@
 body {
   background-color: pink;
   font-size: larger;
-  font-family: monaco;
+  font-family: monaco, Consolas, "Lucida Console", monospace;
 }
 h1 {
   font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
